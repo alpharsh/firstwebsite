@@ -1,5 +1,41 @@
-@media screen and (max-width:850px) {
-    nav{
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: azure;
+    }
+
+    nav {
         flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 12px auto;
+    }
+
+    .container {
+        min-height: calc(100vh - 60px - 70vh);
+    }
+
+    nav ul {
+        justify-content: center;
+        margin: -13px;
+    }
+
+    .search {
+        justify-content: center;
+        margin-bottom: 4px;
+    }
+
+    .search input {
+        margin: 0 12px;
+    }
+
+    .card-item img {
+        width: 140px;
+    }
+
+    .slider img {
+        height: 300px;
+        width: 102vw;
     }
 }
